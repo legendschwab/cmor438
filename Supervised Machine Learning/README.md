@@ -1,4 +1,6 @@
-Supervised Machine Learning is a class of machine learning where we work with labelled data. For example, if we have data 
+Supervised Machine Learning is a class of machine learning where we work with labelled data to predict outcomes and discern relationships. 
+
+Within supervised machine learning, there are two types: regression and classification. Regression focuses on predicting values given inputs. These values usually take on a continuous range. However, classification focuses on assigning categorical values given inputs. 
 
 Examples Include: 
 1. Perceptron
