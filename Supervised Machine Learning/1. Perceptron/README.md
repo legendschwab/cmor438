@@ -1,0 +1,3 @@
+The perceptron is the most fundamental supervised machine learning algorithm. Based on neural perceptrons in the human body, this algorithm takes in a set of inputs as a signal, outputs an intermediate value through a weighted linear combination, and then outputs a final value based on some activation function. 
+
+The training of a perceptron model determines the set of weights that will minimize the cost function. 

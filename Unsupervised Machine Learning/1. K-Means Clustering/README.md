@@ -1,0 +1,3 @@
+K-Means Clustering is the most common unsupervised machine learning algorithm. 
+
+This algorithm begins by randomly assigning k data points as our centroid values to represent the initial clusters. Then, all the training data points are classified into one of the k clusters based on closest distance. Afterwards, the centroid values are updated by averaging the values of all the points in the cluster. This iterative process is repeated until the amount that the centroids change is within a small tolerance. This means the algorithm has converged. 
