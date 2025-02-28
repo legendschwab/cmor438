@@ -1,1 +1,3 @@
 Linear regression is a machine learning algorithm that attempts to determine a linear relationship between a set of inputs and the output value. Using the training data, linear regression seeks to minimize the least squares error in order to determine estimates of the coefficients. Note that the linear refers to linearity of the coefficients, which means that input values can be transformed (e.g. log-transform) in linear regression. 
+
+This is one of the most intuitive and simple algorithms. However, the simplicity means that a linear model may not be appropriate for many data sets. Linear regression assumes that data points are independent, which would not work for something like a time series data. 
