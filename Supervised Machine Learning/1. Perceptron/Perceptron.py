@@ -31,6 +31,23 @@ class Perceptron:
     def predict(self, X):
         linear_output = np.dot(X, self.weights) + self.bias
         return np.sign(linear_output)
+    
+    def backward(self, A_prev, dA):
+        """
+        Compute gradients for the perceptron layer.
+
+        Parameters:
+            A_prev (np.array): Input to the layer (output of the previous layer).
+            dA (np.array): Gradient of the loss with respect to the output of this layer.
+
+        Returns:
+            tuple: Gradients for weights, bias, and input.
+        """
+        dZ = dA  # For a linear layer, dZ = dA
+        dW = np.dot(A_prev.T, dZ) / len(A_prev)
+        db = np.mean(dZ, axis=0)
+        dA_prev = np.dot(dZ, self.weights.T)
+        return dW, db, dA_prev
 
 # Example usage:
 if __name__ == "__main__":

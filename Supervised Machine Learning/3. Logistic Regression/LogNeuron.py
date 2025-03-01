@@ -96,6 +96,36 @@ class LogNeuron:
             #if _ % 100 == 0:
             #    print(f"Iteration {_}, Loss: {loss}")
 
+    def compute_loss_gradient(self, y_true, y_pred):
+        """
+        Compute the gradient of the loss with respect to the output.
+
+        Parameters:
+            y_true (np.array): True labels.
+            y_pred (np.array): Predicted probabilities.
+
+        Returns:
+            np.array: Gradient of the loss with respect to the output.
+        """
+        return (y_pred - y_true) / len(y_true)
+
+    def backward(self, A_prev, dA):
+        """
+        Compute gradients for the logistic regression layer.
+
+        Parameters:
+            A_prev (np.array): Input to the layer (output of the previous layer).
+            dA (np.array): Gradient of the loss with respect to the output of this layer.
+
+        Returns:
+            tuple: Gradients for weights, bias, and input.
+        """
+        dZ = dA  # For the output layer, dZ = dA
+        dW = np.dot(A_prev.T, dZ) / len(A_prev)
+        db = np.mean(dZ, axis=0)
+        dA_prev = np.dot(dZ, self.weights.T)
+        return dW, db, dA_prev
+
     def predict(self, X, threshold=0.5):
         """
         Make binary predictions using a threshold.
