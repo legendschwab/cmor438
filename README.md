@@ -1,4 +1,4 @@
-# cmor438
+# CMOR 438 Final Project
 Repository for CMOR 438 Data Science Machine Learning Spring 2025
 
 In this repository, we will cover major data science and machine learning algorithms. The algorithms are divided into supervised and unsupervised machine learning algorithms. 
