@@ -11,4 +11,4 @@ Note that the term **"linear"** in linear regression refers to the linearity of 
 
 This is one of the most intuitive and simple algorithms. However, its simplicity also means that a linear model may not be appropriate for many datasets. For instance, **linear regression assumes that data points are independent**, which makes it unsuitable for time series data or other scenarios where observations are correlated.  
 
-In the following notebook, we will apply **linear regression** to analyze the relationship between **the height and maximum speed of roller coasters**. First, we will fit an initial model and perform diagnostic checks to assess its appropriateness. Then, we will separate the data into two different categories and refit linear models accordingly.  
+In the following notebook, we will apply **linear regression** to analyze the relationship between **the height and maximum speed of roller coasters**. First, we will fit an initial model and perform diagnostic checks to assess its appropriateness. Then, we will remove some outliers based on the type of the roller coaster to improve the linear model. 
