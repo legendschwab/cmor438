@@ -5,7 +5,7 @@ Within supervised machine learning, there are two types: regression and classifi
 Examples Include: 
 1. Perceptron
 2. Linear Regression
-3. Linear Regression
+3. Logistic Regression
 4. Neural Networks
 5. K-Nearest Neighbors
 6. Decision Trees / Regression Trees
