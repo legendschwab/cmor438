@@ -1,7 +1,7 @@
-# CMOR 438 Final Project
-Repository for CMOR 438 Data Science Machine Learning Spring 2025
+# CMOR 438 Group Project Machine Learning Package
+Machine Learning Package for CMOR 438 Data Science Machine Learning Spring 2025
 
-In this repository, we will cover major data science and machine learning algorithms. The algorithms are divided into supervised and unsupervised machine learning algorithms. 
+In this repository, we will come up with a machine learning package that implements the Neuron model for various machine learning algorithms.
 
 # Authors
 Jonathan Cheng
