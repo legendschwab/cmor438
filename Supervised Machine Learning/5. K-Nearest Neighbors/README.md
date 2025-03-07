@@ -11,5 +11,6 @@ What does "closest" mean? This idea of "closest" usually refers to L2 **Euclidea
 
 -- Notes from Class:
 -- Curse of dimensionality, high dimensional space is essentially empty, each feature vector is mapped to the majority label of the training instances, have to store all of those instances, memory issues
+-- Test set should not be used to pick k. Instead, we should create a separate validation set. Test set should never influence any parameters of the model.
 
 
