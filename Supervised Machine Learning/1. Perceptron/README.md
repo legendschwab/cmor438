@@ -4,7 +4,7 @@ The **perceptron** is the most fundamental supervised machine learning algorithm
 
 The training of a perceptron model determines the set of weights that will minimize the cost function. First, we start with a random initial guess for our weights $$w$$ as well as our bias $$b$$ (denoted as $$w_0$$ in the figure). Using this, we calculate the predicted value $$\hat{y}_i$$ for each $$x_i$$.
 
-Then, we use an iterative method called gradient descent to improve our weights. 
+Then, we use an iterative method to improve our weights based on the error between the predicted and actual values of $$y_i$$. 
 
 $$
  w \gets w - \frac{1}{2} (\hat{y}_i - y_i) x_i
