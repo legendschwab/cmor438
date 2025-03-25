@@ -1,4 +1,4 @@
-Unsupervised Machine Learning is a class of machine learning where we work with data that is unlabelled. These algorithms can detect relationships based on the existing features of the data. The most common type of unsupervised machine learning is to perform clustering of the data points. This is similar to classification algorithms in supervised machine learning. However, in this case, the categories are discovered through the clustering algorithm and not pre-determined. 
+Unsupervised Machine Learning is a class of machine learning where we work with data that is unlabelled. These algorithms can detect relationships based on the existing features of the data. The most common type of unsupervised machine learning is clustering of data points. This is similar to classification algorithms in supervised machine learning. However, in this case, the categories are discovered through the clustering algorithm and not pre-determined. 
 
 Examples Include:
 1. K-Means Clustering
